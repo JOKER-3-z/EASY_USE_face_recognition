@@ -1,0 +1,14 @@
+{
+    "Yolov8":{
+            "confThreshold":0.6,
+            "nmsThreshold":0.5,
+            "modelpath":"weights/yolov8n-face.onnx"
+            } ,
+    "Arcface":{
+            "modelpath":"weights/Arcface_rs50.pth",
+            "detect_Threshold": 0.5
+            } ,
+    "Add_folder":"./ADD_IMAGE",
+    "DEVICE":"cpu"
+
+}
